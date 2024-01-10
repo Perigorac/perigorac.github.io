@@ -2,6 +2,6 @@
 
 TOP TEXT
 
-[BeeMW](BEEMW.md)
+[BeeMW](./BEEMW/BEEMW.md)
 
 BOTTOM TEXT
