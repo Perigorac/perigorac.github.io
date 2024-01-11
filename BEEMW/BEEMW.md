@@ -27,7 +27,7 @@ x2 [DS18B20 OneWire Temperature Probes](https://www.analog.com/en/products/ds18b
 [H40A-C3-0150 Load Cell](https://www.bosche.eu/en/scale-components/load-cells/single-point-load-cell/single-point-load-cell-h40a)  
 A metallic chassis to screw the load cell on  
 [Grove HX711 ADC for Load Cell](https://www.seeedstudio.com/Grove-ADC-for-Load-Cell-HX711-p-4361.html)  
-[SEN0390 Outdoor Light Sensor](https://wiki.dfrobot.com/Ambient_Light_Sensor_0_200klx_SKU_SEN0390)
+[SEN0390 Outdoor Light Sensor](https://wiki.dfrobot.com/Ambient_Light_Sensor_0_200klx_SKU_SEN0390)  
 [RF-MIC-160 Analogue Clip Microphone](https://www.conrad.com/en/p/renkforce-rf-mic-160-clip-speech-microphone-transfer-type-details-analogue-incl-clip-2332132.html)  
 [MAX9814 Microphone Amplifier with AGC](https://www.adafruit.com/product/1713)  
 A mono 3.5mm TRS socket  
