@@ -5,12 +5,12 @@ As students in embedded systems engineering, our school projet in late 2023 was 
 
 ## An embedded solution
 
-BeeMW is contained withing a {DIMENSIONS} waterproof box, outfitted with many sensors to be placed in and around a beehive. These include a large metal chassis housing the weight scale, a portable camera in its separate box, and an array of wire-mounted sensors. The system is powered by a LiPo battery, one that is recharged by a solar cell, mounted with a light sensor. Thus, BeeMW can monitor three different temperatures, the hive's interior humidity, weight, interior sound, outdoor illumination, and can detect the presence of hornets with its camera.
+BeeMW is contained withing a 80x360mm waterproof box, outfitted with many sensors to be placed in and around a beehive. These include a large metal chassis housing the weight scale, a portable camera in its separate box, and an array of wire-mounted sensors. The system is powered by a LiPo battery, one that is recharged by a solar cell, mounted with a light sensor. Thus, BeeMW can monitor three different temperatures, the hive's interior humidity, weight, interior sound, outdoor illumination, and can detect the presence of hornets with its camera.
 
 ## Low-power communications
 
 BeeMW uses LoRaWAN, a French communication protocol, to send data over to the user. There is a LoRa antenna near the beehive array, which transmits data to a [TTN](https://www.thethingsnetwork.org/) server. Using TTN's open tools, we have developed a webhook that automatically forward data to the Dutch [BEEP](https://beep.nl/) platform, on which the data is displayed, on a variety of charts and graphs.
-As the LoRa technology was designed for embedded systems, it has a low power consumption and requires a small antenna. However, it also has a low bitrate and limited airtime : this is why BeeMW only sends the most important informations possible : for example sound samples are treated locally and sent as a handful of spectral densities. Moreover, data is sent every 20 minutes.
+As the LoRa technology was designed for embedded systems, it has a low power consumption and requires a small antenna. However, it also has a low bitrate and limited airtime : this is why BeeMW only sends the most important informations possible : for example sound samples are treated locally and sent as a handful of spectral densities. Moreover, data is sent every 20 minutes - and in the meantime, all of the sensors aren't operating : their power is cut by the TPL5110, which is restored whenever the MKRWAN board awakes from its sleep cycle.  
 
 ## Hardware information
 
@@ -34,8 +34,12 @@ A mono 3.5mm TRS socket
 [OV2640 ESP32-CAM Module](https://wiki.dfrobot.com/ESP32_CAMERA-QR_Tutorial)  
 ### Miscellaneous
 A breadboard  
-A {DIMENSIONS} waterproof box  
+A 80x360mm waterproof box  
 7 Grove connectors and cables  
 ### Circuitry
 
-BeeMW is integrated on a [PCB](./bmw_pcb.cad) made with [Kicad 6.0](https://www.kicad.org/).
+BeeMW is integrated on a [PCB](./bmw_pcb.cad) made with [Kicad 6.0](https://www.kicad.org/).  
+
+### Software information
+
+All of the code, including the main loop and BEEMW's functionalities as standalone snippets of code, are available on [this repo](https://github.com/MathisVermeren/Open-Ruche-Project-SE-Polytech2023).
