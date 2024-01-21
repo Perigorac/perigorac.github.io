@@ -1,11 +1,16 @@
+![Logo BEEMW](https://raw.githubusercontent.com/Perigorac/perigorac.github.io/main/BEEMW/ressources/Logo_Rich.png)
 # BeeMW : an all-in-one embedded system for beehive monitoring
 
 As students in embedded systems engineering, our school projet in late 2023 was to build a beehive monitoring system.  So, we came up with BEEMW.
 
+![BEEMW_Hive](https://raw.githubusercontent.com/Perigorac/perigorac.github.io/main/BEEMW/ressources/BEEMW_Hive.png)
 
 ## An embedded solution
 
 BeeMW is contained withing a 80x360mm waterproof box, outfitted with many sensors to be placed in and around a beehive. These include a large metal chassis housing the weight scale, a portable camera in its separate box, and an array of wire-mounted sensors. The system is powered by a LiPo battery, one that is recharged by a solar cell, mounted with a light sensor. Thus, BeeMW can monitor three different temperatures, the hive's interior humidity, weight, interior sound, outdoor illumination, and can detect the presence of hornets with its camera.
+
+
+![BEEMW_Box](https://raw.githubusercontent.com/Perigorac/perigorac.github.io/main/BEEMW/ressources/BEEMW_Box.png)
 
 ## Low-power communications
 
@@ -31,11 +36,12 @@ A metallic chassis to screw the load cell on
 [RF-MIC-160 Analogue Clip Microphone](https://www.conrad.com/en/p/renkforce-rf-mic-160-clip-speech-microphone-transfer-type-details-analogue-incl-clip-2332132.html)  
 [MAX9814 Microphone Amplifier with AGC](https://www.adafruit.com/product/1713)  
 A mono 3.5mm TRS socket  
-[OV2640 ESP32-CAM Module](https://wiki.dfrobot.com/ESP32_CAMERA-QR_Tutorial)  
+[ESP32-CAM AI Thinker](https://docs.ai-thinker.com/en/esp32-cam)  
 ### Miscellaneous
 A breadboard  
 A 80x360mm waterproof box  
 7 Grove connectors and cables  
+1 USB to TTL serial module
 ### Circuitry
 
 BeeMW is integrated on a [PCB](./bmw_pcb.cad) made with [Kicad 6.0](https://www.kicad.org/).  
@@ -43,3 +49,4 @@ BeeMW is integrated on a [PCB](./bmw_pcb.cad) made with [Kicad 6.0](https://www.
 ### Software information
 
 All of the code, including the main loop and BEEMW's functionalities as standalone snippets of code, are available on [this repo](https://github.com/MathisVermeren/Open-Ruche-Project-SE-Polytech2023).
+
