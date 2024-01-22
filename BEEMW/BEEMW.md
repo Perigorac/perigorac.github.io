@@ -43,6 +43,8 @@ A 80x360mm waterproof box
 7 Grove connectors and cables  
 1 USB to TTL serial module
 ### Circuitry
+![BEEMW_PCB](https://raw.githubusercontent.com/Perigorac/perigorac.github.io/main/BEEMW/ressources/BEEMW_PCB.png)
+
 
 BeeMW is integrated on a [PCB](./bmw_pcb.cad) made with [Kicad 6.0](https://www.kicad.org/).  
 
@@ -50,3 +52,9 @@ BeeMW is integrated on a [PCB](./bmw_pcb.cad) made with [Kicad 6.0](https://www.
 
 All of the code, including the main loop and BEEMW's functionalities as standalone snippets of code, are available on [this repo](https://github.com/MathisVermeren/Open-Ruche-Project-SE-Polytech2023).
 
+### Embedded AI for object recognition
+
+![BEEMW Embedded AI](https://raw.githubusercontent.com/Perigorac/perigorac.github.io/main/BEEMW/ressources/BEEMW_EdgeImpulse.png)
+BEEMW comes with an embedded AI model made with a free plan on [Edge Impulse](https://edgeimpulse.com/). We used a too short dataset of three hornet attacks videos sampled in [190 pictures](https://photos.google.com/share/AF1QipNH1SHzrcbiPGDbbbSlf3vAYlcvsxEYMmPv_WKn9kv4QbVlJMErp1ut0Bl4b8iTBg?pli=1&key=Uno2Tlo1VExzSWwyTDFfSDJNSzZoY01VSGxLQ1Zn) plus a [free Dataset found on Roboflow](https://universe.roboflow.com/use-case-asian-hornet-detection/asian-hornet-detection-a6ael/dataset/2).
+Sadly, in real conditions the AI model isn't accurate enough. We recommand building a new dataset for a real implementation and maybe go for a pro plan on Edge Impulse to allow more training cycles.
+Because of its bad accuracy, we choose to not integrate the AI model in the final prototype, but we wrote [the code](https://github.com/MathisVermeren/Open-Ruche-Project-SE-Polytech2023/tree/master/camera/Final) and the communication system between the ESP32 and the Arduino. You will find a Readme explaining the communication system, a code for the ESP32 , a code to recieve the data on the Arduino and an example to use it with a BEEP integration and with all sensors.
