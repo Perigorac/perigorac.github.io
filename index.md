@@ -1,7 +1,13 @@
-# DUCKROLL
+# STEP INTO THE POND
 
-TOP TEXT
+![DUCK RAMP](./graphics/duck_ramp.png)
 
-[BeeMW](./BEEMW/BEEMW.md)
+## Non-School Projects
+
+EMPTY... FOR NOW  
+
+## School-Related Projects
+
+[BeeMW](./BEEMW/BEEMW.md), a embedded hive monitoring solution
 
 BOTTOM TEXT
