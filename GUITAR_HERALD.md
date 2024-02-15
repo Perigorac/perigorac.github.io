@@ -1,0 +1,4 @@
+GUITAR HERALD is a rythm game developed as the main project in Cécile Braunstein's "Langage C++" school module.  
+The project's goal was to make a C++ program showcasing various parts of object-oriented programming, with the theme being simply "Olympics". With my classmate [Mathis](https://github.com/MathisVermeren/), we chose to make GUITAR HERALD in SFML2, a lightweight and streamlined graphical library for C++. The actual subject of the game is inspired by the 96th antique Olympiad, where a musical concert was held.  
+The game is pretty bare-bones as of now : if we have time, we will add more songs and a more refined UI.  
+The code, as well as its report (in French), are available on [this repo](https://github.com/Perigorac/guitar-herald).
