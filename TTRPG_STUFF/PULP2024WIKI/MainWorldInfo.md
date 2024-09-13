@@ -89,6 +89,18 @@ Has lost some of its economic attractiveness to Gnole, but remains a major polit
 
 OOC : Somalia & Sudan
 
+## Princedom of Sphyngia
+
+Main Cities : Katunab, Buset, Tomphem
+Economy : stoneworks, manufactured goods, fishing
+
+Believed to be the birthplace of humans on Ikronea.
+Sphyngia is a mostly arid and coastal country, though irrigated by the Sedarian rivers Yuk, Naa, and Seti.
+It is governed by an assembly of tribal chieftains, or "Princes".
+Still, it is a politically, academically, economically influent country. Buset is an important harbor on the Sea of Athris.
+
+OOC : Egypt, of course !
+
 ## Ogham Plains
 
 Surrounded by rugged mountains, the heartland of 
