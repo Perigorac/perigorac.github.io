@@ -12,8 +12,8 @@ I am currently enrolled in Polytech Sorbonne's EISE (Electronics, Computer Scien
 
 [BeeMW](./BEEMW/BEEMW.md), a embedded hive monitoring solution  
 
-[GUITAR HERALD](./GUITAR_HERALD.md), a Greek-themed rhythm game in SFML  
+[GUITAR HERALD](./GUITAR_HERALD.md), a Ancient Greece-themed rhythm game in SFML  
 
-## misc
+## Miscellany
 
-TTRPG STUFF
+[TTRPG STUFF](./TTRPG_STUFF/ttrpg_index.md)  
